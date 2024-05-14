@@ -13,3 +13,20 @@ pre-commit = "^3.7.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 80
+lint.select = ["ALL"]
+lint.ignore = [
+    "ANN101",
+    "FBT",
+    "D100",
+    "PTH",
+    "TCH002",
+    "S101",
+    "N817",
+    "TCH001",
+    "E731",
+    "PLR0913",
+    "T201",
+    "INP001"
