@@ -209,8 +209,8 @@ def main() -> None:
     rank = int(os.environ["RANK"])
     world_size = int(os.environ["WORLD_SIZE"])
 
-    model_path = "/ssd003/projects/aieng/finetuning_bootcamp/downloads/tinyllama/"  # noqa: E501
-    dataset_path = "/ssd003/projects/aieng/finetuning_bootcamp/downloads/newsmediabias/debiased_profainty_check_with_keywords.csv"  # noqa: E501
+    model_path = "/projects/fta_bootcamp/downloads//tinyllama/"
+    dataset_path = "../../data/debiased_profainty_check_with_keywords.csv"
     batch_size = 8  # use batches of powers of 2
     epochs = 1
     # aiming for a global batch size of 128:
