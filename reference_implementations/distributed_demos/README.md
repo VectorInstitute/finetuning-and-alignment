@@ -18,7 +18,7 @@ For further reading and additional studies, consider the following resources:
 - [Getting Started with Distributed Data Parallel](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
 
 ## Getting Started
-The main file to run is `dist_demo.py`. The first few lines of the `main` function has parameters that you can change (lines 214-220). Please refrain from changing the model or dataset as the data preprocessing assumes we are using the preset model and dataset. To launch the file, run
+The main file to run is `dist_demo.py`. The first few lines of the `main` function has parameters that you can change (lines 214-220). You can change **between FSDP and DDP** on line 220. Please refrain from changing the model or dataset as the data preprocessing assumes we are using the preset model and dataset. To launch the file, run
 ```bash
 torchrun --nproc-per-node=NUM_GPUS dist_demo.py
 ```
