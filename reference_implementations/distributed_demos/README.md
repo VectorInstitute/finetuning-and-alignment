@@ -20,7 +20,7 @@ For further reading and additional studies, consider the following resources:
 ## Getting Started
 The main file to run is `dist_demo.py`. The first few lines of the `main` function has parameters that you can change (lines 214-220). You can change **between FSDP and DDP** on line 220. Please refrain from changing the model or dataset as the data preprocessing assumes we are using the preset model and dataset. Before launching the file, you would need to have acquired the necessary number of GPUs using the `srun` command. For example, to request 4 CPUs, 2 A40 GPUs, 32GB of CPU RAM for one hour you can run
 ```bash
-srun -c 4 --gres=gpu:2 --mem=32G --qos=normal -p a40 --time=1:00:00 --pty bash
+srun -c 4 --gres=gpu:2 --mem=32G --account=fta_boot --qos=a40_fta_boot -p a40 --time=1:00:00 --pty bash
 ```
 
 To launch the file, run
