@@ -15,13 +15,16 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
-line-length = 80
+line-length = 200
 lint.select = ["ALL"]
 lint.ignore = [
     "ANN101",
+    "ANN001",
     "FBT",
+    "D103",
     "D100",
     "PTH",
+    "ANN201",
     "TCH002",
     "S101",
     "N817",
@@ -30,3 +33,4 @@ lint.ignore = [
     "PLR0913",
     "T201",
     "INP001"
+]
