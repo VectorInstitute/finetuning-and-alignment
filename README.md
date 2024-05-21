@@ -11,9 +11,8 @@ In this bootcamp, we explore advanced Fine-Tuning techniques and approaches to e
 - [**utils/**](./utils/): It contains replicated codes or utility scripts that is used for the reference implementations.
 - [**pyproject.toml**](./pyproject.toml): The `pyproject.toml` file in this repository configures various build system requirements and dependencies, centralizing project settings in a standardized format.
 
-
 ### Reference Implementations
-- [**Distributed Training Demos**]((./reference_implementations/distributed_demos/)): Scripts demonstrating distributed training methods.
+- [**Distributed Training Demos**](./reference_implementations/distributed_demos/): Scripts demonstrating distributed training methods.
 - [**Instruction Tuning Demo**](./reference_implementations/instruction_tuning_demo/): Jupyter notebook for instruction tuning techniques. 
 - [**PEFT**](./reference_implementations/peft/): Custom modules and notebooks demonstrating Parameter Efficient Fine Tuning (PEFT) techniques, with interactive sections for participant completion.
 - [**Quantization**](./reference_implementations/quantization/): Notebook demonstrating model quantization techniques. 
