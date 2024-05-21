@@ -36,6 +36,6 @@ This project is licensed under the terms of the [LICENSE.md](./LICENSE.md) file.
 *Add appropriate CONTRIBUTING.md for this bootcamp in the main directory.*
 To get started with contributing to our project, please read our [CONTRIBUTING.md] guide.  -->
 
-<!-- ## Contact Information
-
-For more information or help with navigating this repository, please contact [Vector AI ENG Team/Individual] at [Contact Email]. -->
+## Contact Information
+- For more information on the Finetuning and Alignment Bootcamp, please contact the industry team at amirmohammad.kazemeini@vectorinstitute.ai.
+- For help with navigating this repository, please contact the AI engineering Team at farnaz.kohankhaki@vectorinstitute.ai.
