@@ -23,7 +23,7 @@ The main file to run is `dist_demo.py`. The first few lines of the `main` functi
 srun -c 4 --gres=gpu:2 --mem=32G --account=fta_boot --qos=fta_boot -p a40 --time=1:00:00 --pty bash
 ```
 
-Before launching the file, you need to activate the environment. (See [Prerequisites](#prerequisites)). To launch the file, run
+Before launching the file, you need to activate the environment (See [Prerequisites](#prerequisites)). To launch the file, run
 ```bash
 torchrun --nproc-per-node=NUM_GPUS dist_demo.py
 ```
