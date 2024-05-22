@@ -18,7 +18,7 @@ The `imdb` directory includes data that has been processed and split into traini
 ### Generation
 These files were generated using the script located at `utils/preprocess_imdb_dataset.py`. The script processes the original IMDb dataset to create three distinct splits: train, test, and eval.
 
-## Debiased Profanity Check Dataset
+## Bias-DeBiased Dataset
 
 This file, `debiased_profanity_check_with_keywords.csv`, contains data related to profanity and bias checks, with specific keywords highlighted for analysis.
 
@@ -32,7 +32,7 @@ This file, `debiased_profanity_check_with_keywords.csv`, contains data related t
 
 
 ## Citation
-If you use the data provided in this directory, please cite the appropriate sources as follows:
+If you use the Bias-DeBiased dataset provided in this directory, please cite the appropriate sources as follows:
 
 ```bibtex
 
