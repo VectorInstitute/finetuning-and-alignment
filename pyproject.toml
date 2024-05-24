@@ -1,13 +1,33 @@
 [tool.poetry]
-name = "bootcamp-template"
+name = "finetuning-and-alignment"
 version = "0.1.0"
-description = ""
+description = "Fine-Tuning and Alignment Bootcampt Repository."
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 pre-commit = "^3.7.0"
+datasets = "^2.19.1"
+bitsandbytes = "^0.43.1"
+transformers = "^4.41.1"
+evaluate = "^0.4.2"
+ipython = "^8.24.0"
+lightning = "^2.2.5"
+peft = "^0.11.1"
+ruff = "^0.4.5"
+scipy = "^1.13.1"
+scikit-learn = "^1.5.0"
+trl = "^0.8.6"
+tqdm = "^4.66.4"
+torch = "^2.3.0"
+sentencepiece = "^0.2.0"
+pandas = "^2.2.2"
+nltk = "^3.8.1"
+ipykernel = "^6.29.4"
+ipywidgets = "^8.1.2"
+torchmetrics = "^1.4.0.post0"
+
 
 
 [build-system]
