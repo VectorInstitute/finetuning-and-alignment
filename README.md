@@ -13,9 +13,9 @@ In this bootcamp, we explore advanced Fine-Tuning techniques and approaches to e
 
 ### Reference Implementations
 - [**Distributed Training Demos**](./reference_implementations/distributed_demos/): Scripts demonstrating distributed training methods.
-- [**Instruction Tuning Demo**](./reference_implementations/instruction_tuning_demo/): Jupyter notebook for instruction tuning techniques. 
+- [**Instruction Tuning Demo**](./reference_implementations/instruction_tuning_demo/): Jupyter notebook for instruction tuning techniques.
 - [**PEFT**](./reference_implementations/peft/): Custom modules and notebooks demonstrating Parameter Efficient Fine Tuning (PEFT) techniques, with interactive sections for participant completion.
-- [**Quantization**](./reference_implementations/quantization/): Notebook demonstrating model quantization techniques. 
+- [**Quantization**](./reference_implementations/quantization/): Notebook demonstrating model quantization techniques.
 - [**Supervised Fine-Tuning**](./reference_implementations/supervised_finetuning/): Notebook demonstrating supervised fine-tuning methods, with interactive sections for participant completion.
 
 
@@ -32,9 +32,8 @@ git clone https://github.com/VectorInstitute/finetuning-and-alignment.git
 ## License
 This project is licensed under the terms of the [LICENSE.md](./LICENSE.md) file.
 
-<!-- ## Contribution
-*Add appropriate CONTRIBUTING.md for this bootcamp in the main directory.*
-To get started with contributing to our project, please read our [CONTRIBUTING.md] guide.  -->
+## Contribution
+To get started with contributing to this project, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
 
 ## Contact Information
 - For more information on the Finetuning and Alignment Bootcamp, please contact the industry team at amirmohammad.kazemeini@vectorinstitute.ai.
