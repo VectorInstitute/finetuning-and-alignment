@@ -210,14 +210,15 @@ def main() -> None:
     world_size = int(os.environ["WORLD_SIZE"])
 
     model_path = "/projects/fta_bootcamp/downloads/tinyllama/"
+    # model_path = "/model-weights/Meta-Llama-3-8B"
     dataset_path = "../../data/debiased_profainty_check_with_keywords.csv"
-    batch_size = 8  # use batches of powers of 2
+    batch_size = 4  # use batches of powers of 2
     epochs = 1
     # aiming for a global batch size of 128:
     gas = 128 // (batch_size * world_size) # gradient accumulation steps.
     lr = 2.0e-5
     eval_steps = 25  # how often to eval
-    dist_type = "DDP"  # either DDP or FSDP
+    dist_type = "FSDP"  # either DDP or FSDP
     assert dist_type in ("DDP", "FSDP")
 
     # set a seed
@@ -234,6 +235,7 @@ def main() -> None:
         use_mp=True,
         use_fa=True,
     )
+    tokenizer.model_max_length = 512
 
     # load datasets
     train_dl, test_dl, orig_length = get_dataloaders(
@@ -293,7 +295,7 @@ def main() -> None:
                 optimizer,
                 scheduler,
             )
-            if step % eval_steps == 0:
+            if (step + 1) % eval_steps == 0:
                 eval_step(test_dl, model, step)
             step += 1
 
